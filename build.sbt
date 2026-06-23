@@ -14,5 +14,6 @@ lazy val root = project
         .withModuleSplitStyle(ModuleSplitStyle.SmallModulesFor(List("example")))
     },
 
-    libraryDependencies += "org.scala-js" %% "scalajs-dom" % "2.8.1",
+//    libraryDependencies += "org.scala-js" %% "scalajs-dom" % "2.8.1", // sbt 2.x
+     libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "2.8.1", // sbt 1.x
   )
