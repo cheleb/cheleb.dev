@@ -5,7 +5,7 @@ lazy val root = project
   .enablePlugins(ScalaJSPlugin)
   .settings(
     name := "cheleb.dev",
-    scalaVersion := "3.8.4",
+    scalaVersion := "3.10.1",
     scalacOptions ++= Seq("-encoding", "utf-8", "-deprecation", "-feature"),
 
     scalaJSUseMainModuleInitializer := true,
